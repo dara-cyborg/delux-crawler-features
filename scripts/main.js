@@ -75,11 +75,11 @@ function renderKhmerPage() {
     const sectionShell = grid.closest(".section-shell");
 
     if (!sectionData || !Array.isArray(sectionData.items) || sectionData.items.length === 0) {
-      sectionShell.style.display = "none";
+      sectionShell.classList.add("is-hidden");
       return;
     }
 
-    sectionShell.style.display = "block";
+    sectionShell.classList.remove("is-hidden");
     document.getElementById(binding.titleId).textContent = sectionData.title;
     document.getElementById(binding.introId).textContent = sectionData.intro;
     renderFeatureCards(binding.gridId, sectionData.items);

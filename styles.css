@@ -166,6 +166,10 @@ p {
   padding: 0;
 }
 
+.section-shell.is-hidden {
+  display: none;
+}
+
 .pricing-shell {
   margin-top: 2.2rem;
 }
