@@ -64,7 +64,10 @@ function renderKhmerPage() {
   document.getElementById("heroTitle").textContent = selected.heroTitle;
   document.getElementById("ctaPrimary").textContent = selected.ctaPrimary;
   document.getElementById("ctaSecondary").textContent = selected.ctaSecondary;
-  document.getElementById("footerText").textContent = selected.footerText;
+  const footerText = document.getElementById("footerText");
+  if (footerText) {
+    footerText.textContent = selected.footerText;
+  }
 
   sectionBindings.forEach((binding) => {
     const sectionData = selected.sections[binding.key];
