@@ -62,6 +62,7 @@ function renderKhmerPage() {
   document.querySelector('meta[name="description"]').setAttribute("content", selected.pageDescription);
 
   document.getElementById("heroTitle").textContent = selected.heroTitle;
+  document.getElementById("heroSubtitle").textContent = selected.heroSubtitle;
   document.getElementById("ctaPrimary").textContent = selected.ctaPrimary;
   document.getElementById("ctaSecondary").textContent = selected.ctaSecondary;
   const footerText = document.getElementById("footerText");

@@ -177,11 +177,11 @@ p {
 .pricing-grid {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1280px) {
   .pricing-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -282,6 +282,11 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   box-shadow: 0 6px 14px rgba(12, 17, 29, 0.2);
+}
+
+.pricing-ribbon-popular {
+  background: #ffffff;
+  color: #1846b8;
 }
 
 @keyframes lifetime-shine {
