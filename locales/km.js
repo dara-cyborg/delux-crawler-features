@@ -4,7 +4,7 @@ window.DELUX_LOCALES.km = {
   pageTitle: "Delux Crawler",
   pageDescription:
     "Delux Crawler ជួយម្ខាស់អជីវកម្ម ក្នុងការទាញ comment ភ្ញៀវបានច្រើនជាងមុន តបភ្ញៀវលឿនជាងមុន និងគ្រប់គ្រងការកម្មង់បានច្រើនជាងមុន",
-  heroTitle: "Live លក់មិនបាត់ Comment ភ្ញៀវទៀតទេ!",
+  heroTitle: "Live លក់មិនខ្លាចបាត់ comment ភ្ញៀវ!",
   heroSubtitle:
     "ចាប់ Comment ពេល Live → បម្លែងជា Order ភ្លាមៗ",
   ctaPrimary: "Start Free Trial",
