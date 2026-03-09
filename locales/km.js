@@ -4,10 +4,10 @@ window.DELUX_LOCALES.km = {
   pageTitle: "Delux Crawler",
   pageDescription:
     "Delux Crawler ជួយម្ខាស់អជីវកម្ម ក្នុងការទាញ comment ភ្ញៀវបានច្រើនជាងមុន តបភ្ញៀវលឿនជាងមុន និងគ្រប់គ្រងការកម្មង់បានច្រើនជាងមុន",
-  heroTitle: "ចាប់ Comment ភ្លាម, Print ភ្លាម, Note ភ្លាម, អស់បារម្មណ៍រឿងវ៉ល់អីវ៉ាន់",
+  heroTitle: "Live លក់មិនបាត់ Comment ភ្ញៀវទៀតទេ!",
   heroSubtitle:
-    "Delux Crawler ផ្តល់លំហូរការងារតែមួយដែលមានប្រសិទ្ធភាព សម្រាប់ម្ចាស់ហាង និងបុគ្គលិកក្នុងការគ្រប់គ្រង Live ដែលមាន Comment ច្រើន",
-  ctaPrimary: "Test ១ សប្តាហ៍ (Free)",
+    "ចាប់ Comment ពេល Live → បម្លែងជា Order ភ្លាមៗ",
+  ctaPrimary: "Start Free Trial",
   ctaSecondary: "មើលមុខងារ",
   sections: {
     instantHooks: {
@@ -15,7 +15,7 @@ window.DELUX_LOCALES.km = {
       intro: "អ្វីដែលម្ចាស់ហាងត្រូវការ",
       items: [
         {
-          title: "1. មិនត្រូវការ Page",
+          title: "មិនចាំបាច់មាន Facebook Page",
           description: "អ្នកលក់មិនចាំបាច់មាន Page, ចង់ចាប់ Comment លើ Live ឬ Post ណាក៏បាន។",
           icon: "freedom"
         },
