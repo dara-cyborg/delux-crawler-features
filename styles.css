@@ -435,6 +435,26 @@ p {
   filter: brightness(1.04);
 }
 
+.printer-addon {
+  font-weight: 700;
+  color: #2458d3;
+  background: #eef4ff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+  margin-top: 0.2rem;
+  border-left: 3px solid #2458d3;
+}
+
+.printer-free {
+  background: #e7f7ee;
+  color: #17613a;
+  font-weight: 800;
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+  margin-top: 0.2rem;
+  border-left: 3px solid #17613a;
+}
+
 h2 {
   font-size: clamp(1.45rem, 2.5vw, 2.1rem);
 }
