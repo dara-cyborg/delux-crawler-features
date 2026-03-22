@@ -1,9 +1,9 @@
 window.DELUX_LOCALES = window.DELUX_LOCALES || {};
 
 window.DELUX_LOCALES.km = {
-  pageTitle: "Delux Crawler",
+  pageTitle: "DELUX",
   pageDescription:
-    "Delux Crawler ជួយម្ចាស់អជីវកម្ម ក្នុងការទាញ comment ភ្ញៀវបានច្រើនជាងមុន តបភ្ញៀវលឿនជាងមុន និងគ្រប់គ្រងការកម្មង់បានច្រើនជាងមុន",
+    "DELUX ជួយម្ចាស់អជីវកម្ម ក្នុងការទាញ comment ភ្ញៀវបានច្រើនជាងមុន តបភ្ញៀវលឿនជាងមុន និងគ្រប់គ្រងការកម្មង់បានច្រើនជាងមុន",
   heroTitle: "Live លក់មិនខ្លាចបាត់ comment ភ្ញៀវ!",
   heroSubtitle:
     "ចាប់ Comment ពេល Live → បម្លែងជា Order ភ្លាមៗ",
@@ -52,5 +52,5 @@ window.DELUX_LOCALES.km = {
       ]
     }
   },
-  footerText: "Delux Crawler - ប្រព័ន្ធប្រតិបត្តិការលក់ Live ទំនើបសម្រាប់ម្ចាស់អជីវកម្មទំនើប"
+  footerText: "DELUX - ប្រព័ន្ធប្រតិបត្តិការលក់ Live ទំនើបសម្រាប់ម្ចាស់អជីវកម្មទំនើប"
 };
