@@ -1,3 +1,34 @@
+// Mobile Navbar Menu Toggle
+document.addEventListener('DOMContentLoaded', function() {
+  const navbarToggle = document.querySelector('.navbar-toggle');
+  const navbarMenu = document.querySelector('.navbar-menu');
+  const navbarLinks = document.querySelectorAll('.navbar-link');
+
+  // Toggle menu on button click
+  if (navbarToggle) {
+    navbarToggle.addEventListener('click', function() {
+      navbarToggle.classList.toggle('active');
+      navbarMenu.classList.toggle('active');
+    });
+  }
+
+  // Close menu when a link is clicked
+  navbarLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      navbarToggle.classList.remove('active');
+      navbarMenu.classList.remove('active');
+    });
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', function(event) {
+    if (!event.target.closest('.sticky-navbar')) {
+      navbarToggle.classList.remove('active');
+      navbarMenu.classList.remove('active');
+    }
+  });
+});
+
 const sectionBindings = [
   { key: "instantHooks", titleId: "instantHooksTitle", introId: "instantHooksIntro", gridId: "instantHooksGrid" }
 ];
